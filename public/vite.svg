@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="20 25 487 550" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1e1e1b;
+      }
+    </style>
+  </defs>
+  <g transform="translate(-52.757 0) scale(1.2 1)">
+    <rect class="cls-1" x="123.15" y="151.07" width="2.32" height="138.06"/>
+    <rect class="cls-1" x="171.46" y="111.87" width="9.17" height="138.06"/>
+    <rect class="cls-1" x="224.76" y="80.38" width="16.01" height="138.06"/>
+    <rect class="cls-1" x="282.9" y="62.26" width="22.86" height="138.06"/>
+    <rect class="cls-1" x="343.56" y="57.96" width="29.71" height="138.06"/>
+    <rect class="cls-1" x="404.43" y="67.93" width="36.56" height="138.06"/>
+  </g>
+  <g transform="translate(-52.757 0) scale(1.2 1)">
+    <rect class="cls-1" x="402.11" y="310.87" width="2.32" height="138.06"/>
+    <rect class="cls-1" x="346.95" y="350.07" width="9.17" height="138.06"/>
+    <rect class="cls-1" x="286.8" y="381.55" width="16.01" height="138.06"/>
+    <rect class="cls-1" x="221.81" y="399.67" width="22.86" height="138.06"/>
+    <rect class="cls-1" x="154.3" y="403.97" width="29.71" height="138.06"/>
+    <rect class="cls-1" x="86.59" y="394.01" width="36.56" height="138.06"/>
+  </g>
+</svg>
