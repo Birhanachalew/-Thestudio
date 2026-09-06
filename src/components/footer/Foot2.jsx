@@ -1,33 +1,43 @@
 import React from 'react'
 import BoxHead from './BoxHead'
 import ContentBox from './ContentBox'
+
 const Foot1 = () => {
   return (
-    <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-y-[15vw] gap-[2.5vw] sm:gap-y-[3.8rem] sm:gap-[2rem] md:mt-[-1.7rem] md:gap-[2.5rem] '>
-      <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem] '>
-        <BoxHead head='Shaping Experiences:'/>
-        <ContentBox content="UX Audit"/>
-        <ContentBox content="UI Design"/>
-        <ContentBox content="UX Design"/>
-        <ContentBox content="UX Research"/>
-      </div>
+    <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-y-[15vw] gap-[2.5vw] sm:gap-y-[3.8rem] sm:gap-[2rem] md:mt-[-1.7rem] md:gap-[2.5rem]'>
+
       <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
-        <BoxHead head='where we shine:'/>
-        <ContentBox content="SaaS"/>
-        <ContentBox content="Web App"/>
-        <ContentBox content="mobile app"/>
-        <ContentBox content="website design"/>
+        <BoxHead head='creative practice:' />
+        <ContentBox content='2D Animation' />
+        <ContentBox content='3D Modeling' />
+        <ContentBox content='Stop Motion' />
+        <ContentBox content='Creative Writing' />
       </div>
+
       <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
-        <BoxHead head='behind the screens:'/>
-        <ContentBox classAdd='text-[3.6vw] uppercase font-medium' content="our story"/>
-        <ContentBox classAdd='text-[3.6vw] uppercase font-medium' content="careers"/>
+        <BoxHead head='education:' />
+        <ContentBox content='AIME' />
+        <ContentBox content='Literary Laboratory' />
+        <ContentBox content='Workshops' />
+        <ContentBox content='Masterclasses' />
       </div>
+
       <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
-        <BoxHead hide='invisible' head='-'/>
-        <ContentBox classAdd='text-[3.6vw] uppercase font-medium' content="terms of services"/>
-        <ContentBox classAdd='text-[3.6vw] uppercase font-medium' content="privacy policy"/>
+        <BoxHead head='production:' />
+        <ContentBox content='Animation' />
+        <ContentBox content='Film & Media' />
+        <ContentBox content='Commercials' />
+        <ContentBox content='Documentary' />
       </div>
+
+      <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
+        <BoxHead head='studio:' />
+        <ContentBox content='Our Story' />
+        <ContentBox content='Careers' />
+        <ContentBox content='Contact' />
+        <ContentBox content='Privacy Policy' />
+      </div>
+
     </div>
   )
 }
