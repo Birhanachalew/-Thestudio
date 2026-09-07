@@ -3,7 +3,7 @@
 <!-- 🔥 Project Preview Image -->
 <img width="1602" height="802" alt="la1" src="https://github.com/user-attachments/assets/abf683bd-89fe-4e64-8bd7-66803a9cf394" />
 
-A modern and polished **landing page clone** of the **Lazarev website** built with **React, Tailwind CSS, GSAP, and Lenis.js**.  
+A modern and polished **landing page clone** of the **The Studio Production PLC website** built with **React, Tailwind CSS, GSAP, and Lenis.js**.  
 This project focuses on **complex UI layouts**, **interactive animations**, and a smooth **user experience**.  
 
 ---
@@ -21,8 +21,6 @@ This project focuses on **complex UI layouts**, **interactive animations**, and 
 
 ---
 
-<img width="1581" height="815" alt="la2" src="https://github.com/user-attachments/assets/c9de7e6a-9357-4658-afeb-9e12225da3fd" />
-
 
 ## 🛠️ Tech Stack  
 
@@ -38,7 +36,7 @@ This project focuses on **complex UI layouts**, **interactive animations**, and 
 1. Clone the repo:
 
     ```bash
-    git clone https://github.com/your-username/Lazarev-Web-Project.git
+    git clone https://github.com/Birhanachalew/-Thestudio.git
     cd Lazarev-Web-Project
     ```
 
@@ -60,7 +58,7 @@ This project focuses on **complex UI layouts**, **interactive animations**, and 
 
 If you have any questions, feedback, or collaboration ideas, feel free to reach out:  
 
-- **Email**: khanowaiszai@gmail.com
+- **Email**: birhanaschalew1719@gmail.com
 
 ---
 
