@@ -183,34 +183,34 @@ const App = () => {
             <Card
               className="lg:col-span-2 lg:row-span-1 "
               head="$500M+"
-              para="In funding secured for our clients"
+              para="Stories and productions brought to life"
               no="/01"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406247/card2_fgjxol.webm"
             />
             <Card
               className="lg:col-span-2"
               head="120+"
-              para="Awards backing our excellence"
+              para="Creative disciplines under one roof"
               no="/02"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406246/card1_kuntbt.webm"
             />
             <Card
               className="lg:col-span-2"
               head="2015"
-              para="Founded, 9 years of experience"
+              para="Years creating original work"
               no="/03"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406247/card2_fgjxol.webm"
             />
             <Card
               className=" lg:col-span-3 "
-              head="San Francisco"
-              para="Based in heart of AI"
+              head="Addis Ababa"
+              para="Rooted in Ethiopia, creating for the world"
               no="/04"
             />
             <Card
               className="md:col-span-2 lg:col-span-3 "
-              head="All-in-One Solution"
-              para="From user-research to scalable design systmes we've got you covered "
+              head="All-in-One Production"
+              para="From story development to final delivery, we bring the whole production together"
               no="/05"
             />
           </div>
@@ -223,8 +223,8 @@ const App = () => {
             <MainDataNavi />
             <div className="w-full flex flex-col lg:flex-row lg:gap-[1rem] xl:gap-[2rem] ">
               <MainData
-                head="Accern.Rhea design case study"
-                para="Founded by accern a front runner in no code nlp rhea stand as a personalized AI Associate designed to streamline FinTech workflows."
+                head="Original Animation"
+                para="A Studio Production story developed through concept, character, motion, and final animation."
                 video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406247/data1_rrj9we.mp4"
               />
               {/* ye button mobile sy ly kr md tk ki screens mn show hoga  */}
@@ -238,8 +238,8 @@ const App = () => {
               </div>
               {/* yaha button end hogaya  */}
               <MainData
-                head="Pika AI Design Case Study"
-                para="Pika Ai is a new and better search engine that harnesses AI technology and hekos people find the most relevant and interesting information from across the web."
+                head="Film & Media Production"
+                para="A visual production shaped through storytelling, filming, editing, sound, and finishing."
                 video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406256/data2_lzdvko.mp4"
               />
             </div>

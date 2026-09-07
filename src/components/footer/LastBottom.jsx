@@ -22,7 +22,7 @@ const LastBottom = () => {
           <SocialBox label='YouTube' icon='ri-youtube-fill' href='https://www.youtube.com/'/>
         </div>
       </div>
-      <div className='shrink-0 capitalize text-[3.5vw] sm:text-[1.1rem]'>
+      <div className='shrink-0 capitalize text-[1.1rem] leading-tight max-w-[20rem]'>
         <h5>Copyright © 2026 Thestudioporoductionplc. All rights reserved.</h5>
       </div>
     </div>

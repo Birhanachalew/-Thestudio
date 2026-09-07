@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React, { useEffect, useLayoutEffect, useRef } from 'react'
+import heroVideo from '../assets/hero.mp4'
 
 const Hero = () => {
 
@@ -65,15 +66,25 @@ const Hero = () => {
 
  
   return (
-    <div className='w-full mt-[28vw] sm:h-[90vh] sm:mt-[5rem] flex flex-col justify-center gap-4 md:items-center md:text-center'>
-      <div>
-        <h2 className='MiniHead text-[3.8vw] font-medium uppercase sm:text-[1.5rem] lg:text-[1.6rem]'>AI + Product Design Agency / San Francisco</h2>
+    <div className='relative isolate w-full min-h-[90vh] overflow-hidden mt-[28vw] sm:h-[90vh] sm:mt-[5rem] flex flex-col justify-center gap-4 px-4 md:items-center md:text-center'>
+      <video
+        className='absolute inset-0 -z-20 h-full w-full object-cover'
+        src={heroVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+        aria-hidden='true'
+      />
+      <div className='absolute inset-0 -z-10 bg-[#111111]/70' aria-hidden='true' />
+      <div className='relative z-10'>
+        <h2 className='MiniHead text-[3.8vw] font-medium uppercase sm:text-[1.5rem] lg:text-[1.6rem]'>The Studio Production / Addis Ababa</h2>
       </div>
-      <div>
-        <h1 className='text-[10vw] font-bold uppercase leading-tight sm:text-[3.8rem] lg:text-[4.5rem] xl:text-[5.5rem]'> <span ref={MainText1} >UX-First Design Agency</span><br className='hidden lg:block'/> <span ref={MainText2} >for B2B + AI Companies</span></h1>
+      <div className='relative z-10'>
+        <h1 className='text-[10vw] font-bold uppercase leading-tight sm:text-[3.8rem] lg:text-[4.5rem] xl:text-[5.5rem]'> <span ref={MainText1} >Creative Trade School</span><br className='hidden lg:block'/> <span ref={MainText2} >&amp; Production House</span></h1>
       </div>
-      <div>
-        <p className='MiniPara text-[3.8vw] sm:text-[1.5rem] lg:text-[1.8rem]'>We launch <span className='text-[#0DA34E]'>MVPs</span> redefine <span className='text-[#0DA34E]'>existing products</span> & continously dive into <span className='text-[#0DA34E]'><br className='hidden lg:block'/>new technologies</span> to deliver <span className='text-[#0DA34E]'>customer development</span></p>
+      <div className='relative z-10 max-w-[75rem]'>
+        <p className='MiniPara text-[3.8vw] sm:text-[1.5rem] lg:text-[1.8rem]'>The Studio Production PLC is an integrated creative trade school and production house in Addis Ababa, Ethiopia. We train emerging creatives, develop original ideas, and produce animation, film, media, and visual storytelling, connecting practical education with real production and opportunities beyond Ethiopia.</p>
       </div>
     </div>
   )

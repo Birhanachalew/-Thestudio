@@ -53,30 +53,30 @@ const UIUX = () => {
             </div>
         </div>
         <div className='flex  flex-wrap mt-[6vw] sm:mt-[2.5rem]'>
-            <BlockData  value='webflow design agency'/>
-            <BlockData  value='branding agency'/>
-            <BlockData  value='logo design agency'/>
-            <BlockData  value='ai consulting services'/>
-            <BlockData  value='hire ai designers'/>
-            <BlockData  value='web design consultance'/>
-            <BlockData  value='startuo web design'/>
-            <BlockData  value='b2b design agency'/>
-            <BlockData  value='website redesign'/>
-            <BlockData  value='ui design team'/>
-            <BlockData  value='ux audit'/>
+            <BlockData  value='2D animation'/>
+            <BlockData  value='3D modeling'/>
+            <BlockData  value='stop motion'/>
+            <BlockData  value='film production'/>
+            <BlockData  value='media production'/>
+            <BlockData  value='creative writing'/>
+            <BlockData  value='visual storytelling'/>
+            <BlockData  value='documentaries'/>
+            <BlockData  value='commercials'/>
+            <BlockData  value='post-production'/>
+            <BlockData  value='original content'/>
         </div>
         <div  ref={slide} className='mt-[12vw] sm:mt-[4rem] w-full  h-[0px] overflow-hidden '>
-          <ItemsMenu head='AI consulting Services' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='Hire AI designers' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='Web Design Consultancy' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='responsive web design' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='startup web design' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='B2B design agency' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='UX design Team' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='UX/UI Design' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='Webflow Design ' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='Branding Agency' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
-          <ItemsMenu head='Logo Design' para='We specialize in redesigning websites to increase business KPIs and propel your brand forward. We have helped clients increase traffic and drive conversions by 50% and beyond.'/>
+          <ItemsMenu head='Animation Production' para='We develop original animation, from concept and storyboarding through production and final delivery.'/>
+          <ItemsMenu head='Film & Media Production' para='We produce films, documentaries, commercials, and media projects with a clear creative vision.'/>
+          <ItemsMenu head='Creative Writing' para='We shape strong stories, scripts, and narratives for film, animation, and original content.'/>
+          <ItemsMenu head='Visual Storytelling' para='We turn ideas into compelling visual experiences that connect with audiences.'/>
+          <ItemsMenu head='Original Content' para='We create original stories and productions that reflect the voice and imagination of The Studio Production.'/>
+          <ItemsMenu head='Post-Production' para='We bring every project together with editing, sound, motion, and finishing.'/>
+          <ItemsMenu head='Workshops & Education' para='We share practical creative skills through workshops, masterclasses, and learning communities.'/>
+          <ItemsMenu head='Stop Motion' para='We build tactile worlds and memorable stories frame by frame.'/>
+          <ItemsMenu head='3D Modeling' para='We create detailed 3D assets and environments for animation, film, and media.'/>
+          <ItemsMenu head='Commercial Production' para='We produce engaging commercial stories for brands, organizations, and creative partners.'/>
+          <ItemsMenu head='Creative Partnerships' para='We collaborate with artists, brands, and organizations to bring ambitious productions to life.'/>
         </div>
     </div>
   )

@@ -62,7 +62,7 @@ const Video = () => {
       <video
         ref={video}
         onClick={ClickHandler}
-        src="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406262/front-video_qqlwz0.mp4"
+        src= "src\assets\front-video.mp4"
         autoPlay
         muted
         loop
