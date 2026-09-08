@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React, { useEffect, useLayoutEffect, useRef } from 'react'
-import heroVideo from '../assets/hero.mp4'
+import heroVideo from '../assets/hero-compressed.mp4'
 
 const Hero = () => {
 

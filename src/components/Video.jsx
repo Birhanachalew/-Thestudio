@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import FullScreenVideo from "./FullScreenVideo";
 import mainThumbnail from '../assets/main-thumbnail.webp'
-import showreelVideo from '../assets/0907-3.mp4'
+import showreelVideo from '../assets/0907-3-compressed.mp4'
 
 
 const Video = () => {
