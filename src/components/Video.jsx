@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import FullScreenVideo from "./FullScreenVideo";
 import mainThumbnail from '../assets/main-thumbnail.webp'
+import showreelVideo from '../assets/0907-3.mp4'
 
 
 const Video = () => {
@@ -62,7 +63,7 @@ const Video = () => {
       <video
         ref={video}
         onClick={ClickHandler}
-        src= "src\assets\front-video.mp4"
+        src={showreelVideo}
         autoPlay
         muted
         loop
