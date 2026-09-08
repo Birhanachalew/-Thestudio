@@ -7,7 +7,7 @@ const Social = () => {
       <BoxHead head='our social:'/>
       <div className='flex w-full flex-wrap gap-[1vw] mt-[3vw] sm:mt-[1.5rem]'>
         <SocialBox label='Facebook' icon='ri-facebook-fill' href='https://www.facebook.com/'/>
-        <SocialBox label='LinkedIn' icon='ri-linkedin-fill' href='https://www.linkedin.com/'/>
+        <SocialBox label='LinkedIn' icon='ri-linkedin-fill' href='https://www.linkedin.com/company/thestudioproductionplc'/>
         <SocialBox label='Instagram' icon='ri-instagram-line' href='https://www.instagram.com/'/>
         <SocialBox label='TikTok' icon='ri-tiktok-fill' href='https://www.tiktok.com/'/>
         <SocialBox label='YouTube' icon='ri-youtube-fill' href='https://www.youtube.com/'/>
