@@ -110,7 +110,7 @@ const Header = () => {
       <nav className="flex gap-2">
         <div
           id="icons "
-          className="cursor-pointer bg-[#0DA34E] h-[9vw] w-[9vw] rounded-full flex justify-center items-center sm:h-[2.4rem] sm:w-[2.4rem] lg:hidden"
+          className="cursor-pointer bg-[#6c7155] h-[9vw] w-[9vw] rounded-full flex justify-center items-center sm:h-[2.4rem] sm:w-[2.4rem] lg:hidden"
         >
           <i className="ri-arrow-right-up-line cursor-pointer text-[0px] scale-0 transform transition-transform duration-500 "></i>
           <i className="ri-pencil-fill cursor-pointer text-[4.5vw] sm:text-[1.4rem] "></i>
@@ -139,19 +139,19 @@ const Header = () => {
                     Animation Courses
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     2D Animation
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Stop Motion
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     3D Modeling
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Digital Imaging
                   </li>
                 </ul>
@@ -162,15 +162,15 @@ const Header = () => {
                     Production Services
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Media Production
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Animation Production
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Creative Content
                   </li>
                 </ul>
@@ -181,28 +181,28 @@ const Header = () => {
                     Storytelling
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Creative Writing
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Visual Storytelling
                   </li>
 
-                  <li className="cursor-pointer hover:text-[#0DA34E] transition-all lg:text-[1rem]">
+                  <li className="cursor-pointer hover:text-[#6c7155] transition-all lg:text-[1rem]">
                     Narrative Development
                   </li>
                 </ul>
 
               </div>
             </li>
-            <li className="cursor-pointer">cases</li>
-            <li className="cursor-pointer">Out comes</li>
-            <li className="cursor-pointer">news</li>
+            <li className="cursor-pointer">productions</li>
+            <li className="cursor-pointer">programs</li>
+            <li className="cursor-pointer">scholarship</li>
           </ul>
           <div className="cursor-pointer flex items-center gap-4 rounded-full px-[0.9rem] py-[0.5rem] relative group ">
-            <div className="background absolute top-0 right-0 bg-[#0DA34E] w-full h-full rounded-full group-hover:w-[44px] transition-all duration-200 ease-in-out"></div>
-            <h3 className="cursor-pointer relative z-2 text-[1.1rem] font-medium uppercase group-hover:text-[#0DA34E] group-hover:pr-[8px] transition-all duration-300 flex gap-4">
+            <div className="background absolute top-0 right-0 bg-[#6c7155] w-full h-full rounded-full group-hover:w-[44px] transition-all duration-200 ease-in-out"></div>
+            <h3 className="cursor-pointer relative z-2 text-[1.1rem] font-medium uppercase group-hover:text-[#6c7155] group-hover:pr-[8px] transition-all duration-300 flex gap-4">
               Let's Talk
             </h3>
             <i className="ri-pencil-fill cursor-pointer relative z-2 text-[1.1rem]"></i>
@@ -216,9 +216,9 @@ const Header = () => {
           <div className="Wrapper-Div mt-[10vw] sm:mt-[2rem] h-[80%] flex items-center"> 
             <div ref={WhatItem} className="flex flex-col w-full gap-[5vw] sm:gap-[3rem]">
               <h4 onClick={FirstMenuBtn} className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600  flex justify-between">what we do <i className="ri-arrow-right-s-line"></i></h4>
-              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">cases</h4>
-              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">outcomes</h4>
-              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">news</h4>
+              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">productions</h4>
+              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">programs</h4>
+              <h4 className="text-[7vw] sm:text-[2.5rem] font-bold uppercase cursor-pointer border-b-2 border-zinc-600 ">scholarship</h4>
             </div>
 
             <div ref={WhatMenu} className="hidden flex-col gap-[2vw] sm:gap-[0rem] w-full">
@@ -244,7 +244,7 @@ const Header = () => {
               </ul>
             </div>
           </div>
-          <div className="Button cursor-pointer w-full bg-[#0DA34E] flex justify-center items-center rounded-full py-[2.7vw] sm:mt-[0rem] sm:py-[1rem]">
+          <div className="Button cursor-pointer w-full bg-[#6c7155] flex justify-center items-center rounded-full py-[2.7vw] sm:mt-[0rem] sm:py-[1rem]">
             <h5 className="text-[3.3vw] sm:text-[1.2rem] font-bold uppercase ">Let's talk </h5>
           </div>
         </div>

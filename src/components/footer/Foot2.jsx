@@ -16,9 +16,10 @@ const Foot1 = () => {
 
       <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
         <BoxHead head='education:' />
-        <ContentBox content='AIME' />
-        <ContentBox content='Literary Laboratory' />
-        <ContentBox content='Workshops' />
+        <ContentBox content='3-Month Programs' />
+        <ContentBox content='2D Animation' />
+        <ContentBox content='3D Modeling' />
+        <ContentBox content='Creative Writing' />
         <ContentBox content='Masterclasses' />
       </div>
 
@@ -32,9 +33,9 @@ const Foot1 = () => {
 
       <div className='flex flex-col gap-[3vw] sm:gap-[1.1rem]'>
         <BoxHead head='studio:' />
-        <ContentBox content='Our Story' />
-        <ContentBox content='Careers' />
-        <ContentBox content='Contact' />
+        <ContentBox content='About The Studio' />
+        <ContentBox content='Creative Partners' />
+        <ContentBox content='Contact Us' />
         <ContentBox content='Privacy Policy' />
       </div>
 

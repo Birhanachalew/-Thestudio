@@ -13,13 +13,13 @@ const LastBottom = () => {
         />
       </div>
       <div className='flex flex-col items-center shrink-0'>
-        <h5 className='text-[3.5vw] sm:text-[1.2rem] font-medium opacity-40 uppercase leading-none'></h5>
         <div className='flex flex-wrap justify-center gap-[1vw] mt-[3vw] sm:mt-[1.5rem]'>
           <SocialBox label='Facebook' icon='ri-facebook-fill' href='https://www.facebook.com/'/>
           <SocialBox label='LinkedIn' icon='ri-linkedin-fill' href='https://www.linkedin.com/company/thestudioproductionplc'/>
-          <SocialBox label='Instagram' icon='ri-instagram-line' href='https://www.instagram.com/'/>
-          <SocialBox label='TikTok' icon='ri-tiktok-fill' href='https://www.tiktok.com/'/>
-          <SocialBox label='YouTube' icon='ri-youtube-fill' href='https://www.youtube.com/'/>
+          <SocialBox label='Instagram' icon='ri-instagram-line' href='https://www.instagram.com/thestudioproductionplc/'/>
+          <SocialBox label='Telegram' icon='ri-telegram-fill' href='https://t.me/thestudioproductionplc'/>
+          <SocialBox label='TikTok' icon='ri-tiktok-fill' href='https://www.tiktok.com/@thestudioproductionplc'/>
+          <SocialBox label='YouTube' icon='ri-youtube-fill' href='https://youtube.com/@thestudioproductionplc?si=u28MNDzT418aOoI8'/>
         </div>
       </div>
       <div className='shrink-0 capitalize text-[1.1rem] leading-tight max-w-[20rem]'>

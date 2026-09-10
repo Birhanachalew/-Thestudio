@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import FullScreenVideo from "./FullScreenVideo";
 import mainThumbnail from '../assets/main-thumbnail.webp'
-import showreelVideo from '../assets/0907-3-compressed.mp4'
+import showreelVideo from '../assets/0907(4)/0907(4).mp4'
 
 
 const Video = () => {
@@ -47,7 +47,7 @@ const Video = () => {
       {ShowVideo && <FullScreenVideo onClose={() => setShowVideo(false)}/>}
       <div
         ref={cursor}
-        className="pointer-events-none absolute top-0  left-0 h-[32vw] w-[32vw] sm:w-[11rem] sm:h-[11rem] sm:px-[2.7rem] sm:py-[1rem] md:w-[12rem]  md:h-[12rem] flex flex-col items-start px-[7vw] gap-[3vw] md:gap-[1rem] justify-center rounded-full bg-[#0DA34E] z-3 "
+        className="pointer-events-none absolute top-0  left-0 h-[32vw] w-[32vw] sm:w-[11rem] sm:h-[11rem] sm:px-[2.7rem] sm:py-[1rem] md:w-[12rem]  md:h-[12rem] flex flex-col items-start px-[7vw] gap-[3vw] md:gap-[1rem] justify-center rounded-full bg-[#6c7155] z-3 "
       >
         <i className="ri-arrow-right-up-line text-[4vw] sm:text-[1.4rem] md:text-[1.6rem] lg:text-[1.8rem]"></i>
         <h4 className=" text-white text-[3vw] sm:text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] font-bold  uppercase whitespace-nowrap">

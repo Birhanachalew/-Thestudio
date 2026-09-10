@@ -149,7 +149,7 @@ const MainDataNavi = () => {
 
   return (
     <div className='hidden lg:flex flex-col gap-[0.8rem] w-[25%] mt-[3rem] relative'>
-      <div className='text-[1rem]  xl:text-[1.2rem] flex justify-between cursor-pointer border-b-2 border-zinc-700 pb-1 text-[#0DA34E]'>
+      <div className='text-[1rem]  xl:text-[1.2rem] flex justify-between cursor-pointer border-b-2 border-zinc-700 pb-1 text-[#6c7155]'>
         <h6>Animation</h6>
         <h6>2</h6>
       </div>

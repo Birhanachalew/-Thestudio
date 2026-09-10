@@ -16,6 +16,7 @@ const Foot1 = () => {
               <div className='border-2 w-fit px-[2.5vw] py-[2.3vw] sm:py-[0.9rem] sm:px-[1.2rem] md:py-[0.7rem] md:px-[1.2rem] rounded-full cursor-pointer '>
                 <h5 className='text-[3.5vw] sm:text-[1.3rem] md:text-[1.1rem] font-bold leading-none uppercase'>Check our latest deck</h5>
               </div>
+              <a href='mailto:ContactUs@TheStudioProductionPlc.com' className='w-fit text-[3.5vw] sm:text-[1.2rem] md:text-[1.1rem] underline underline-offset-4'>ContactUs@TheStudioProductionPlc.com</a>
             </div>
             <div className='second-wrapper flex flex-col gap-[3.5vw] sm:gap-[1.5rem] md:gap-[1.3rem]'>
               <h5 className='text-[3.5vw] sm:text-[1.2rem] font-medium opacity-40  uppercase leading-none'>our location:</h5>

@@ -47,7 +47,7 @@ const UIUX = () => {
         <div
         ref={Border}
         className='w-full flex justify-between items-center gap-4 border-t-2 border-zinc-700 pt-[5vw] sm:pt-[1.9rem]'> 
-            <h2 className='text-[8vw] font-bold sm:text-[3.3rem] md:text-[3.4rem] lg:text-[3.2rem] xl:text-[3.4rem]'>Product Design</h2>
+            <h2 className='text-[8vw] font-bold sm:text-[3.3rem] md:text-[3.4rem] lg:text-[3.2rem] xl:text-[3.4rem]'>Production &amp; Storytelling</h2>
             <div onClick={ClickHandler} className='cursor-pointer flex justify-center items-center w-[8vw] h-[8vw] md:w-[3.2rem] md:h-[3.2rem] lg:w-[2.7rem] lg:h-[2.7rem] sm:w-[3rem] sm:h-[3rem] bg-transparent border-2 border-zinc-700 rounded-full'>
                 <i ref={btnIcon} className="ri-arrow-down-s-line text-[4vw] sm:text-[1.5rem] md:text-[1.55rem] text-zinc-300"></i>
             </div>

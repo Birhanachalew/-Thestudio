@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Video from "./components/Video";
 import Card from "./components/Card";
 import Mid from "./components/Mid";
 import DataNav from "./components/DataNav";
@@ -177,27 +176,26 @@ const App = () => {
         <main className="w-full h-full px-3 lg:px-10 ">
           <div className="w-full flex flex-col gap-[10vw] sm:gap-[0rem]">
             <Hero />
-            <Video />
           </div>
           <div className=" w-full mt-[5rem] px-2 grid justify-center gap-4 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-6 lg:grid-rows-[25rem_21rem]">
             <Card
               className="lg:col-span-2 lg:row-span-1 "
-              head="$500M+"
-              para="Stories and productions brought to life"
+              head="Creative disciplines"
+              para="2D Animation, 3D Modeling, Stop Motion & Creative Writing"
               no="/01"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406247/card2_fgjxol.webm"
             />
             <Card
               className="lg:col-span-2"
-              head="120+"
-              para="Creative disciplines under one roof"
+              head="3 MONTHS"
+              para="Industry-focused creative programs built around practice, mentorship & production"
               no="/02"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406246/card1_kuntbt.webm"
             />
             <Card
               className="lg:col-span-2"
-              head="2015"
-              para="Years creating original work"
+              head="2025"
+              para="A creative school and production house under one roof"
               no="/03"
               video="https://res.cloudinary.com/dx48q3i5w/video/upload/v1763406247/card2_fgjxol.webm"
             />
@@ -231,7 +229,7 @@ const App = () => {
               <div className="buttonWraper w-full bg-[#111111] sticky top-[73%] mt-[-4rem] left-[0%] py-[3.5vw] sm:py-[1.5rem] md:py-[1.4rem] z-10 lg:hidden">
                 <div className="flex justify-center items-center w-full bg-[#4F5BFF] rounded-full py-[3.5vw] sm:py-[1.5rem] md:py-[1.4rem]">
                   <h2 className="text-[3vw] sm:text-[1.3rem]  uppercase font-medium">
-                    see all case study{" "}
+                    explore all productions{" "}
                   </h2>
                   <i className="ri-arrow-right-up-line -1"></i>
                 </div>
@@ -252,11 +250,11 @@ const App = () => {
               <div
                 onMouseEnter={MouseEnter}
                 onMouseLeave={MouseLeave}
-                className="bg-[#0DA34E] sticky top-[25vw] mb-[3rem] w-full mt-[7.5rem] flex justify-center items-center rounded-full cursor-pointer hidden lg:flex lg:flex-col py-[0.8rem] overflow-hidden"
+                className="bg-[#6c7155] sticky top-[25vw] mb-[3rem] w-full mt-[7.5rem] flex justify-center items-center rounded-full cursor-pointer hidden lg:flex lg:flex-col py-[0.8rem] overflow-hidden"
               >
                 <div ref={content1} className="flex items-center gap-[0.5rem]">
                   <h4 className="text-[1.1rem]  font-medium uppercase ">
-                    become a client{" "}
+                    partner with us{" "}
                   </h4>
                   <i className="pl-1 ri-arrow-right-up-line"></i>
                 </div>
@@ -265,7 +263,7 @@ const App = () => {
                   className="flex items-center gap-[0.5rem] absolute bottom-[-18px] opacity-0"
                 >
                   <h4 className="text-[1.1rem] font-medium uppercase ">
-                    become a client{" "}
+                    partner with us{" "}
                   </h4>
                   <i className="pl-1 ri-arrow-right-up-line"></i>
                 </div>
@@ -279,7 +277,7 @@ const App = () => {
                 <UIUX />
                 <ProductDesign />
                 {/* button hy ye  */}
-                <div className="w-[85%] mt-[7vw] sm:mt-[2.6rem] md:mt-[3rem] bg-[#0DA34E] flex justify-center items-center py-[4vw] sm:py-[1.4rem] md:py-[1.3rem] rounded-full cursor-pointer lg:hidden">
+                <div className="w-[85%] mt-[7vw] sm:mt-[2.6rem] md:mt-[3rem] bg-[#6c7155] flex justify-center items-center py-[4vw] sm:py-[1.4rem] md:py-[1.3rem] rounded-full cursor-pointer lg:hidden">
                   <h4 className="text-[3.3vw] sm:text-[1.4rem] md:text-[1.3rem] font-medium uppercase ">
                     become a client{" "}
                     <i className="pl-1 ri-arrow-right-up-line"></i>
