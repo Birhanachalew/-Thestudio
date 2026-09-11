@@ -67,13 +67,13 @@ const Hero = () => {
   return (
     <div className='w-full mt-[28vw] sm:h-[90vh] sm:mt-[5rem] flex flex-col justify-center gap-4 md:items-center md:text-center'>
       <div>
-        <h2 className='MiniHead text-[3.8vw] font-medium uppercase sm:text-[1.5rem] lg:text-[1.6rem]'>The Studio Production / Addis Ababa</h2>
+        <h2 className='MiniHead text-[3.8vw] font-medium uppercase sm:text-[1.5rem] lg:text-[1.6rem]'></h2>
       </div>
       <div>
         <h1 className='text-[10vw] font-bold uppercase leading-tight sm:text-[3.8rem] lg:text-[4.5rem] xl:text-[5.5rem]'> <span ref={MainText1} >Creative Trade School</span><br className='hidden lg:block'/> <span ref={MainText2} >&amp; Production House</span></h1>
       </div>
       <div>
-        <p className='MiniPara text-[3.8vw] sm:text-[1.5rem] lg:text-[1.8rem]'>The Studio Production PLC is an integrated creative trade school and production house in Addis Ababa, Ethiopia. We train emerging creatives, develop original ideas, and produce animation, film, media, and visual storytelling, connecting practical education with real production and opportunities beyond Ethiopia.</p>
+        <p className='MiniPara text-[3.8vw] sm:text-[1.5rem] lg:text-[1.8rem]'> We train emerging creatives, develop original ideas, and produce animation, film, media, and visual storytelling, connecting practical education with real production and opportunities beyond Ethiopia.</p>
       </div>
     </div>
   )
